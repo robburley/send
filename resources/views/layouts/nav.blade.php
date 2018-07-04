@@ -1,0 +1,1 @@
+<nav-bar :user="{{ auth()->user() }}" current="{{ request()->path() }}"></nav-bar>
